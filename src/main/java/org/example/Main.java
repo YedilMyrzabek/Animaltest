@@ -19,8 +19,7 @@ public class Main {
         list.add(8);
         list.add(9);
 
-        double x = 5.312;
-        int g = (int) x;
+
 
 
 
