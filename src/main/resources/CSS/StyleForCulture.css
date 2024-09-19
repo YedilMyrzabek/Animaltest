@@ -1,0 +1,192 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(90deg, #005cbf, #1a73e8);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    padding: 18px 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #1a73e8;
+    color: #fff;
+}
+
+main {
+    padding: 40px;
+}
+
+h2 {
+    color: #003366;
+}
+
+h3 {
+    color: #333;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+figure {
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+}
+
+figcaption{
+    margin: 2px;
+    font-style: italic;
+    color: #555;
+}
+
+form input,form textarea, form select {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.gg{
+    position: relative;
+    left: 600px;
+}
+
+form input[type="submit"] {
+    background-color: #005cbf;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #004b9b;
+    transform: translateY(-2px);
+}
+
+#topic{
+    font-size: 16px;
+    text-align: center;
+}
+
+.back-to-main {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #005cbf;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.back-to-main:hover {
+    background-color: #004b9b;
+    transform: translateY(-2px);
+}
+
+
+
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #dee2e6;
+}
+
+
+
+.footer p {
+    font-size: 16px;
+    color: #6c757d;
+}
+
+
+
+.flexbox-container {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.flexbox-image {
+    margin-right: 10px;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+
+th {
+    background-color: #f2f2f2;
+}
+
+.info-food{
+    font-size: 18px;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    padding: 8px;
+    text-align: left;
+}
+
+
+
+
+

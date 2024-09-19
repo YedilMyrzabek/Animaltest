@@ -1,0 +1,114 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e0f0ff; /* Adjusted for consistency */
+  color: #333;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+#main-header {
+  background: linear-gradient(45deg, #003366, #0066cc);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.header-title {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.main-nav {
+  margin-top: 10px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  margin: 0 15px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.nav-link:hover {
+  background-color: #004d99;
+  transform: translateY(-2px);
+}
+
+section {
+  padding: 50px 20px;
+}
+
+.section-heading {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #003366;
+  animation: fadeInUp 1s ease-out;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #003366;
+}
+
+.section-text {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.image-container {
+  margin: 15px 0;
+  text-align: center;
+}
+
+.section-image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.section-image:hover {
+  transform: scale(1.05);
+}
+
+figcaption {
+  font-style: italic;
+  margin-top: 5px;
+}
+
+#main-footer {
+  background: linear-gradient(45deg, #003366, #0066cc);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9em;
+}
+
+#parks-section, #reserves-section, #recreational-section {
+  background-color: #ffffff;
+  color: black;
+  padding: 20px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+a:focus, button:focus {
+  outline: 2px solid #003366;
+  outline-offset: 2px;
+}
